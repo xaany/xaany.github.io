@@ -1,0 +1,168 @@
+# Site
+repository: xaany/my_cv
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Даниил Русович
+title: Middle Python Backend developer
+email: aiky.77777@gmail.com
+# website: www.github.com/xaany/my_cv
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  xaany
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: t.me
+  icon: fas fa-paper-plane
+  url: https://t.me/XAAANY
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Обо мне
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Привет! Меня зовут Даниил и я Middle Python Backend разработчик. Так же, у меня есть базовые знания Front-end технологий. Я начал свой путь программиста 5 лет назад и за это время поработал в нескольких небольших командах и получил огромный опыт.
+
+  Так же у меня есть знания в области:
+   - <mark>Linux</mark>
+   - <mark>Docker</mark>
+   - <mark>Postgres/SQL</mark>
+
+content:
+  - title: Навыки # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Parsing/Scarping
+        sub_title: Работа с данными
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Я написал множество парсеров/скраперов/ботов. Работал с http-запросами, куками, проксями, капчей, <mark>Selenium</mark>. Умею анализировать ресурс и вытаскивать запросы.
+      
+      - layout: left
+        title: Databases & Cache
+        sub_title: Проектирование бд, составление запросов
+        description: |
+          Я имею опыт работы с такими базами данных как Postgres, MySQL, SQLite и кешем Redis. Использовал <mark>Alembic</mark>, <mark>sqlalchemy</mark>. Знаю основы SQL.  Могу написать запрос или спроектировать простую БД с отношениями один-ко-многим и тд.
+
+      - layout: left
+        title: FastAPI & DRF
+        sub_title: Составление API
+        description: |
+          Я создавал API различных видов. Писал API под Front-end. Работал с сессиями и авторизацией (в том числе JWT). 
+
+      - layout: left
+        title: Telegram Bot API
+        sub_title: Clear API & aiogram 2/3
+        description: |
+          Я написал огромное количество ботов для телеграма, особенно с использованием асинхронной библиотеки <mark>aiogram</mark>. Знаю много тонкостей и особенностей этой темы.
+
+      - layout: left
+        title: HTML/CSS/JS
+        sub_title: Базовые знания web
+        description: |
+          Я обладаю базовыми знаниями web части. Могу написать простой Front-end на голом Bootstrap. Написать скрипт на js/jquery. Знаком с такими фреймворками как VueJS, Django
+
+
+  - title: Опыт # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: TG-Helprs Studio
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Head Programmer
+        caption: Июнь 2021 - Ноябрь 2023
+        quote: >
+          Разработка решений для малого и среднего бизнеса в Телеграм, например создание ботов-магазинов или ботов-поддержки и тп.
+        description: | # this will include new lines to allow paragraphs
+            Наша небольшая компания занималась разработкой ботов для бизнеса. Я выполнял роль главного программиста. Утверждал проекты, разрабатывал проекты с нуля как самостоятельно, так и в небольшой команде из 3+ человек, которых обычно курировал. За время работы в компании мы создали более 100 ботов различной тематики и функционала.
+
+      - layout: left
+        title: Freelance
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Самозанятый
+        caption: Ноябрь 2023 - Текущее время
+        quote: >
+          Поиск и отклик на заказы, общение с заказчиками, дедлайны
+        description: | # this will include new lines to allow paragraphs
+            В данный момент я являюсь самозанятым. Выполняю заказы на различных форумах и биржах. Держусь дедлайнов и получаю только положительные отзывы :)
+
+  - title: Образование # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Сибирский Федеральный Университет
+        caption: 2019 - 2023
+        sub_title: Институт Космических и Информационных Технологий
+        quote: >
+          Сибирский федеральный университет (СФУ) входит в топ-15 вузов России. Первый в России федеральный университет. Крупный научно-исследовательский и образовательный центр в России. Крупнейший университет восточной части России.
+        description: | # this will include new lines to allow paragraphs
+          Имею неоконченное высшее (4 курса) бакалаврское образование по направлению "Управление в технических системах". Обучаясь в университете, я получил множество полезных навыков, которые применяю и по сей день. Был лидером на кафедре по предмету "Программирование". Успешно изучил С++, включая ООП, базовые знания кучи (heap) и работы с памятью, указатели. Далее изучил C#, в особенности .NET Windows Forms.
+
+  - title: Немного информации обо мне
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Мне 22 года. Родился в России г. Красноярск. В данный момент проживаю в Таиланде на о. Пхукет
+      Я очень общительный и дружелюбный человек. Открыт ко всему новому, особенно в плане кодинга.
+      
+      Знаю английский язык на уровень B1-B2 (углубленное изучение языка было в школе с 2 по 11 класс). В данный момент практикуюсь с нейтивами.
+      
+      Люблю:
+      - Спорт (тренажерный зал)
+      - Вкусно поесть
+      - Море
+      - Жаркую погоду
+      - Котиков
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
